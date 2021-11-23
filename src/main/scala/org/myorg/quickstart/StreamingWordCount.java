@@ -52,11 +52,11 @@ public class StreamingWordCount {
 
 		SingleOutputStreamOperator<String> wordsDataStream = lines.flatMap(new FlatMapFunction<String, String>() {
 			@Override
+			public void flatMap(String line, Collector<String> collector) throws Exception {
 				String[] words = line.split(" ");
 				for (String word : words) {
 					collector.collect(word);
 				}
-
 			}
 		});
 

@@ -10,7 +10,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Home" level="application" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-scala_2.11:1.14.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-core:1.14.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-annotations:1.14.0" level="project" />
