@@ -20,7 +20,7 @@ import java.util.ArrayList;
  *
  * 2、non-keyed 和 keyed Window
  *
- *
+ * 3、时间类型：process、event 、
  */
 
 
